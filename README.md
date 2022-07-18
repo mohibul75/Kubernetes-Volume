@@ -4,4 +4,4 @@
 
 ![pod with container](/image/k8s volume.drawio.png)
 
-<img src="..\image\k8s volume.drawio.png" width="200" height="100">
+<img src=".\image\k8s volume.drawio.png" width="200" height="100">
