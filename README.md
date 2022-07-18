@@ -52,7 +52,7 @@ some example of volume types are:
 
 If somehow pod crashed then the volume attached to pod will get deleted and no data will be founded . After Crashed, the pod will recreates and new volume will reinitialize. The newly created volume will be empty and that is called empty dir.<br/ >
 
-**\*\***some key points about Empty Dir**\***
+**some key points about Empty Dir**
 
 <ol>
 
@@ -68,6 +68,20 @@ If somehow pod crashed then the volume attached to pod will get deleted and no d
 
 <li>A  container crashing does not remove a pod from a node, so the data in a empty dir volume is safe across container crashes. </li>
 
-<li></li>
+ </ol>
 
-## </ol>
+---
+
+ <h3>HostPath</h3>
+
+Hostpath is for mapping pod's volume to host volume. If there something change is occured in pod's volume, something will be happened on the host volume.
+
+**some key points about Host Path**
+
+ <ol>
+ 
+<li> Use this when we want to access the contents of pod/container from host machine.</li>
+
+<li>A hostpath volume mounts a file on directory from the host nodes's file system into your pod</li>
+
+ </ol>
