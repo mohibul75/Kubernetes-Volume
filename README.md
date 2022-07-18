@@ -12,10 +12,10 @@
 
 <ol>
 
-    <li> Containers are short lived in nature </li>
+<li> Containers are short lived in nature </li>
 
-    <li> All data stored inside a container is deleted if the container crashed(this point is for only the general container, not for a container running in a pod) <br/>
+<li> All data stored inside a container is deleted if the container crashed(this point is for only the general container, not for a container running in a pod) <br/>
 
-    However the kubelet will restart it eith a clean state, ehich means that it will not have any of the old data. </li>
+However the kubelet will restart it eith a clean state, ehich means that it will not have any of the old data. </li>
 
 </ol>
